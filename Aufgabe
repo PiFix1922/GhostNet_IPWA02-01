@@ -1,0 +1,24 @@
+Geisternetz:
+	Standort(GPS-Koordinaten)
+	geschätzte Größe
+	Status
+	maximal 1 Geisternetz zur Bergung einer bergenden Person zugeordnet
+Status:
+	Gemeldet (eine meldende Person hat das Geisternetz im System erfasst.)
+	Bergung bevorstehend (Eine bergende Person hat die Bergung angekündigt.)
+	Geborgen (Eine bergende Person hat das Geisternetz erfolgreich geborgen.)
+	Verschollen (Eine beliebige(nicht anonyme) Person hat festgestellt, dass das Geisternetz am gemeldeten Standort nicht auffindbar ist
+
+Person:
+	meldende Person:	(kann auch anonym bleiben und braucht dann keine Telefonnummer)
+			Name
+			Telefonnummer
+	
+		
+	bergende Person:
+			Name
+			Telefonnummer
+			Bergende Personen können allerdings mehr als ein Geisternetz gleichzeitig bergen.	
+	
+	anonyme Person:	
+			"Name"
